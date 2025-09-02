@@ -73,15 +73,15 @@ src/CMakeFiles/libsdb.dir/libsdb.cpp.o: src/CMakeFiles/libsdb.dir/flags.make
 src/CMakeFiles/libsdb.dir/libsdb.cpp.o: ../src/libsdb.cpp
 src/CMakeFiles/libsdb.dir/libsdb.cpp.o: src/CMakeFiles/libsdb.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/krilcebre/sdb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/libsdb.dir/libsdb.cpp.o"
-	cd /home/krilcebre/sdb/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/libsdb.dir/libsdb.cpp.o -MF CMakeFiles/libsdb.dir/libsdb.cpp.o.d -o CMakeFiles/libsdb.dir/libsdb.cpp.o -c /home/krilcebre/sdb/src/libsdb.cpp
+	cd /home/krilcebre/sdb/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/libsdb.dir/libsdb.cpp.o -MF CMakeFiles/libsdb.dir/libsdb.cpp.o.d -o CMakeFiles/libsdb.dir/libsdb.cpp.o -c /home/krilcebre/sdb/src/libsdb.cpp
 
 src/CMakeFiles/libsdb.dir/libsdb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libsdb.dir/libsdb.cpp.i"
-	cd /home/krilcebre/sdb/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krilcebre/sdb/src/libsdb.cpp > CMakeFiles/libsdb.dir/libsdb.cpp.i
+	cd /home/krilcebre/sdb/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krilcebre/sdb/src/libsdb.cpp > CMakeFiles/libsdb.dir/libsdb.cpp.i
 
 src/CMakeFiles/libsdb.dir/libsdb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libsdb.dir/libsdb.cpp.s"
-	cd /home/krilcebre/sdb/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krilcebre/sdb/src/libsdb.cpp -o CMakeFiles/libsdb.dir/libsdb.cpp.s
+	cd /home/krilcebre/sdb/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krilcebre/sdb/src/libsdb.cpp -o CMakeFiles/libsdb.dir/libsdb.cpp.s
 
 # Object files for target libsdb
 libsdb_OBJECTS = \

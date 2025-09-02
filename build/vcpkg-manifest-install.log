@@ -1,0 +1,41 @@
+Detecting compiler hash for triplet x64-linux...
+Compiler found: /usr/bin/c++
+The following packages will be built and installed:
+    catch2:x64-linux@3.7.1
+    libedit:x64-linux@2024-08-08
+  * vcpkg-cmake:x64-linux@2024-04-23
+  * vcpkg-cmake-config:x64-linux@2024-05-23
+Additional packages (*) will be modified to complete this operation.
+Restored 4 package(s) from /home/krilcebre/.cache/vcpkg/archives in 4.3 s. Use --debug to see more details.
+Installing 1/4 vcpkg-cmake-config:x64-linux@2024-05-23...
+Elapsed time to handle vcpkg-cmake-config:x64-linux: 1.47 ms
+vcpkg-cmake-config:x64-linux package ABI: 262fcaa98ccd83ba28fb4e080836160814d29872e101b13398679088a7caed73
+Installing 2/4 vcpkg-cmake:x64-linux@2024-04-23...
+Elapsed time to handle vcpkg-cmake:x64-linux: 785 us
+vcpkg-cmake:x64-linux package ABI: e10f3e79a2014ec14af3832c9cb1e191ea813cc2781015326f3f7d629e810fcd
+Installing 3/4 catch2:x64-linux@3.7.1...
+Elapsed time to handle catch2:x64-linux: 11.3 ms
+catch2:x64-linux package ABI: c3ffbaa74192635a267d496c6a5f0caa44ee4bb7e8a97ba9a52464b2d9e5231c
+Installing 4/4 libedit:x64-linux@2024-08-08...
+Elapsed time to handle libedit:x64-linux: 4.18 ms
+libedit:x64-linux package ABI: d73d882173402a61530d2642200f130355b1b862020f25de43151f88609f9e95
+Total install time: 17.8 ms
+catch2 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(Catch2 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Catch2::Catch2 Catch2::Catch2WithMain)
+
+catch2 provides pkg-config modules:
+
+  # A modern, C++-native test framework for C++14 and above (links in default main)
+  catch2-with-main
+
+  # A modern, C++-native, test framework for C++14 and above
+  catch2
+
+libedit provides pkg-config modules:
+
+  # command line editor library provides generic line editing, history, and tokenization functions.
+  libedit
+

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Site BuildName="Linux-clang++"
+<Site BuildName="Linux-c++"
 	BuildStamp="20250902-1919-Experimental"
 	Name="MignonII"
 	Generator="ctest-3.22.1"
-	CompilerName="/usr/bin/clang++"
-	CompilerVersion="17.0.6"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
 	OSName="Linux"
 	Hostname="MignonII"
 	OSRelease="6.6.87.2-microsoft-standard-WSL2"
@@ -24,11 +24,11 @@
 	ProcessorClockFrequency="3493.47"
 	>
 	<Testing>
-		<StartDateTime>Sep 02 21:44 CEST</StartDateTime>
-		<StartTestTime>1756842263</StartTestTime>
+		<StartDateTime>Sep 02 22:51 CEST</StartDateTime>
+		<StartTestTime>1756846319</StartTestTime>
 		<TestList/>
-		<EndDateTime>Sep 02 21:44 CEST</EndDateTime>
-		<EndTestTime>1756842263</EndTestTime>
+		<EndDateTime>Sep 02 22:51 CEST</EndDateTime>
+		<EndTestTime>1756846319</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

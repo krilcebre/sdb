@@ -73,15 +73,15 @@ tools/CMakeFiles/sdb.dir/sdb.cpp.o: tools/CMakeFiles/sdb.dir/flags.make
 tools/CMakeFiles/sdb.dir/sdb.cpp.o: ../tools/sdb.cpp
 tools/CMakeFiles/sdb.dir/sdb.cpp.o: tools/CMakeFiles/sdb.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/krilcebre/sdb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/CMakeFiles/sdb.dir/sdb.cpp.o"
-	cd /home/krilcebre/sdb/build/tools && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/CMakeFiles/sdb.dir/sdb.cpp.o -MF CMakeFiles/sdb.dir/sdb.cpp.o.d -o CMakeFiles/sdb.dir/sdb.cpp.o -c /home/krilcebre/sdb/tools/sdb.cpp
+	cd /home/krilcebre/sdb/build/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/CMakeFiles/sdb.dir/sdb.cpp.o -MF CMakeFiles/sdb.dir/sdb.cpp.o.d -o CMakeFiles/sdb.dir/sdb.cpp.o -c /home/krilcebre/sdb/tools/sdb.cpp
 
 tools/CMakeFiles/sdb.dir/sdb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sdb.dir/sdb.cpp.i"
-	cd /home/krilcebre/sdb/build/tools && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krilcebre/sdb/tools/sdb.cpp > CMakeFiles/sdb.dir/sdb.cpp.i
+	cd /home/krilcebre/sdb/build/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krilcebre/sdb/tools/sdb.cpp > CMakeFiles/sdb.dir/sdb.cpp.i
 
 tools/CMakeFiles/sdb.dir/sdb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sdb.dir/sdb.cpp.s"
-	cd /home/krilcebre/sdb/build/tools && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krilcebre/sdb/tools/sdb.cpp -o CMakeFiles/sdb.dir/sdb.cpp.s
+	cd /home/krilcebre/sdb/build/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krilcebre/sdb/tools/sdb.cpp -o CMakeFiles/sdb.dir/sdb.cpp.s
 
 # Object files for target sdb
 sdb_OBJECTS = \
@@ -93,6 +93,8 @@ sdb_EXTERNAL_OBJECTS =
 tools/sdb: tools/CMakeFiles/sdb.dir/sdb.cpp.o
 tools/sdb: tools/CMakeFiles/sdb.dir/build.make
 tools/sdb: src/libsdb.a
+tools/sdb: vcpkg_installed/x64-linux/debug/lib/libedit.a
+tools/sdb: /usr/lib/x86_64-linux-gnu/libncurses.so
 tools/sdb: tools/CMakeFiles/sdb.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krilcebre/sdb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sdb"
 	cd /home/krilcebre/sdb/build/tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sdb.dir/link.txt --verbose=$(VERBOSE)

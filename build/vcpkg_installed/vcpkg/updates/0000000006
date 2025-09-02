@@ -1,0 +1,7 @@
+Package: libedit
+Version: 2024-08-08
+Architecture: x64-linux
+Multi-Arch: same
+Abi: d73d882173402a61530d2642200f130355b1b862020f25de43151f88609f9e95
+Description: A command line editor library that provides generic line editing, history, and tokenization functions, similar to those found in GNU Readline.
+Status: install ok half-installed
