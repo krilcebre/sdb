@@ -1,0 +1,2 @@
+/home/krilcebre/sdb/build/CMakeFiles/edit_cache.dir
+/home/krilcebre/sdb/build/CMakeFiles/rebuild_cache.dir
