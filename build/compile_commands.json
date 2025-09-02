@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/krilcebre/sdb/build/src",
+  "command": "/usr/bin/clang++  -I/home/krilcebre/sdb/src/include -I/home/krilcebre/sdb/include -g -o CMakeFiles/libsdb.dir/libsdb.cpp.o -c /home/krilcebre/sdb/src/libsdb.cpp",
+  "file": "/home/krilcebre/sdb/src/libsdb.cpp"
+},
+{
+  "directory": "/home/krilcebre/sdb/build/tools",
+  "command": "/usr/bin/clang++  -I/home/krilcebre/sdb/include -g -o CMakeFiles/sdb.dir/sdb.cpp.o -c /home/krilcebre/sdb/tools/sdb.cpp",
+  "file": "/home/krilcebre/sdb/tools/sdb.cpp"
+}
+]
